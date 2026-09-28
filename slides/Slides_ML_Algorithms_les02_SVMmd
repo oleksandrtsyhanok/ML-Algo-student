@@ -43,6 +43,8 @@ flowchart LR
     Vraag -- Ja --> SVM["✅ Lineaire classifier"]
     Vraag -- Nee --> Later["➡️ Kernels (later in de les)"]
 ```
+---
+![start_problem](images/start_problem_plot.png)
 
 ---
 
@@ -59,6 +61,8 @@ flowchart LR
 ```
 
 ---
+![large_margin](images/large_margin_classification_plot.png)
+---
 
 ## Large margin classification
 
@@ -66,6 +70,7 @@ flowchart LR
   - De scheiding tussen de twee uiterste cases is **zo groot mogelijk**
   - = **large margin classification**
 - Dit lukt helaas **niet altijd** (zie soft margin)
+
 
 ---
 
@@ -131,6 +136,9 @@ flowchart LR
     F --> Balans
     Balans --> C["➡️ Parameter C"]
 ```
+---
+
+![sensitivity_to_outliers](images/sensitivity_to_outliers_plot.png)
 
 ---
 
@@ -145,6 +153,10 @@ Hoe kleiner **C**, hoe meer 'fouten' er worden getolereerd:
 |---|-------|--------------------|--------|
 | klein | breed | veel | underfitting |
 | groot | smal | weinig | overfitting |
+
+---
+
+![soft_margin](images/soft_margin_classification_plot.png)
 
 > Kies $C$ via **cross-validatie**, niet "op het gevoel" ✅
 
