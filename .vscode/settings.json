@@ -8,5 +8,14 @@
   ],
   "markdown.marp.themes": [
     "themes/ap-theme.css"
-  ]
+  ],
+  "python.testing.unittestArgs": [
+    "-v",
+    "-s",
+    "./exercises_with_checks",
+    "-p",
+    "test*.py"
+  ],
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestEnabled": true
 }
